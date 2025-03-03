@@ -1,10 +1,23 @@
 #!/bin/bash
 
-echo "Installing dependencies..."
+# Install Python if missing (Optional, depends on environment)
+if ! command -v python3 &> /dev/null
+then
+    echo "Python3 not found! Installing..."
+    sudo apt update && sudo apt install python3 -y
+fi
+
+if ! command -v pip &> /dev/null
+then
+    echo "Pip not found! Installing..."
+    sudo apt install python3-pip -y
+fi
+
+# Install dependencies
 pip install -r requirements.txt
 
-echo "Collecting static files..."
-python manage.py collectstatic --noinput
+# Collect static files
+python3 manage.py collectstatic --noinput
 
-echo "Running migrations..."
-python manage.py migrate
+# Run database migrations
+python3 manage.py migrate
