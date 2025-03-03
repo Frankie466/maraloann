@@ -71,7 +71,7 @@ h1, h2 {
 
 .custom-input:focus {
     border-color: var(--btn-green-bg);
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    box-shadow: 0 0 5px rgba(6, 141, 152, 0.51);
 }
 
 .custom-input::placeholder {
@@ -94,7 +94,7 @@ h1, h2 {
 .btn-green:hover {
     background-color: var(--btn-green-hover);
     border-color: var(--btn-green-hover);
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    box-shadow: 0 0 5px rgba(6, 141, 152, 0.51);
 }
 
 .btn-green:disabled {
@@ -187,7 +187,7 @@ a:hover {
 
 .contact-btn:hover {
     background-color: var(--btn-green-hover);
-    box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+    box-shadow: 0 0 8px rgba(6, 141, 152, 0.51);
 }
 
 /* Mobile Menu Customization */
@@ -215,7 +215,7 @@ a:hover {
     }
 }
 .contact-btn {
-    background-color: aqua; /* Set background to aqua */
+    background-color: rgba(6, 141, 152, 0.51); /* Set background to aqua */
     color: #333; /* Dark text for better contrast */
     border: none;
     padding: 8px 15px;
@@ -225,7 +225,7 @@ a:hover {
 }
 
 .contact-btn:hover {
-    background-color: #00ced1; /* Darker aqua on hover */
+    background-color: rgba(6, 141, 152, 0.51); /* Darker aqua on hover */
     box-shadow: 0 0 4px rgba(0, 206, 209, 0.5); /* Subtle glow effect */
 }
 
@@ -267,8 +267,8 @@ a:hover {
 
 /* Register button: Aqua background */
 .btn-register {
-    background-color: #00bcd4;  /* Aqua background */
-    border-color: #00bcd4;      /* Aqua border */
+    background-color: rgba(6, 141, 152, 0.51);  /* Aqua background */
+    border-color: rgba(6, 141, 152, 0.51);      /* Aqua border */
     color: white;                /* White text */
     font-size: 14px;
     font-weight: bold;
@@ -279,9 +279,9 @@ a:hover {
 }
 
 .btn-register:hover {
-    background-color: #0097a7;  /* Darker shade on hover */
-    border-color: #0097a7;      /* Darker shade on hover */
-    box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+    background-color: rgba(6, 141, 152, 0.51);  /* Darker shade on hover */
+    border-color: rgba(6, 141, 152, 0.51);      /* Darker shade on hover */
+    box-shadow: 0 0 5px rgba(6, 141, 152, 0.51);
 }
 
 
@@ -316,18 +316,18 @@ footer {
 
 .navbar .nav-item .nav-link[href*="contact"],
 .navbar .nav-item .nav-link[href*="about"] {
-    color: aqua;  /* Aqua color for Contact and About links */
+    color: rgba(6, 141, 152, 0.51);  /* Aqua color for Contact and About links */
 }
 
 /* Ensure the color stays when hovering */
 .navbar .nav-item .nav-link:hover {
-    color: #00FFFF;  /* Light aqua color on hover */
+    color: rgba(6, 141, 152, 0.51);  /* Light aqua color on hover */
 }
 
 
 /* Aqua Color for Specific Headings */
 .text-aqua {
-    color: #00FFFF;  /* Aqua color */
+    color: rgba(6, 141, 152, 0.51);  /* Aqua color */
 }
 
 /* Background Color for About Section */
@@ -366,7 +366,7 @@ footer {
 
 /* Hover effect for social media links */
 .social-icon:hover {
-    color: #00FFFF;
+    color: rgba(6, 141, 152, 0.51);
     transition: color 0.3s ease;
 }
 
@@ -385,7 +385,7 @@ body {
 
 .social-icon {
     font-size: 30px; /* Adjust icon size */
-    color: rgba(9, 56, 168, 0.51); /* White color */
+    color: rgba(6, 141, 152, 0.51); /* White color */
     text-decoration: none; /* Remove underline */
     margin: 0 10px; /* Space between icons */
     transition: color 0.3s ease;
@@ -393,7 +393,7 @@ body {
 
 /* Hover effect for social icons */
 .social-icon:hover {
-    color: #00FFFF; /* Aqua color on hover */
+    color: rgba(6, 141, 152, 0.51); /* Aqua color on hover */
 }
 
 /* Footer styling to limit its height */
@@ -420,7 +420,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #00FFFF; /* Hover effect on links */
+    color: rgba(6, 141, 152, 0.51); /* Hover effect on links */
 }
 
 /* Styling for About Section */
@@ -435,7 +435,7 @@ footer a:hover {
 
 .about-section h3 {
     font-size: 2rem;
-    color: #00FFFF;
+    color: rgba(6, 141, 152, 0.51);
     margin-bottom: 15px;
 }
 
@@ -462,12 +462,12 @@ footer a:hover {
 .contact-section h1 {
     font-size: 3rem;
     margin-bottom: 20px;
-    color: #00FFFF;
+    color: rgba(6, 141, 152, 0.51);
 }
 
 .contact-section h3 {
     font-size: 2rem;
-    color: #00FFFF;
+    color: rgba(6, 141, 152, 0.51);
     margin-bottom: 15px;
 }
 
@@ -478,7 +478,7 @@ footer a:hover {
 
 .contact-section .social-icon {
     font-size: 1.5rem;
-    color: #00FFFF;
+    color: rgba(6, 141, 152, 0.51);
     transition: color 0.3s ease;
 }
 
@@ -498,7 +498,7 @@ footer a:hover {
 }
 
 .contact-section .btn-custom {
-    background-color: #00FFFF;
+    background-color: rgba(6, 141, 152, 0.51);
     color: white;
     padding: 12px 25px;
     font-size: 1.1rem;
@@ -511,5 +511,297 @@ footer a:hover {
     background-color: #008B8B;
     color: white;
 }
+/* Apply box styles to each step */
+.apply-step-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.apply-step-box:hover {
+    transform: scale(1.02);
+}
+
+/* Trusted boxes styling */
+.trusted-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.trusted-box:hover {
+    transform: scale(1.05);
+}
+
+
+/* Trusted, Apply Steps, Review Boxes */
+.trusted-box, .apply-step-box, .review-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.trusted-box:hover, .apply-step-box:hover, .review-box:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel Styling */
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Social Icons */
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    font-size: 30px;
+    color: rgba(6, 141, 152, 0.51);
+}
+
+.social-icon:hover {
+    color: rgba(6, 141, 152, 0.51);
+}
+
+/* Contact Form Styling */
+form input, form textarea {
+    border-radius: 5px;
+}
+
+form button {
+    border-radius: 5px;
+    background-color: rgba(6, 141, 152, 0.51);
+    color: #fff;
+    border: none;
+}
+
+form button:hover {
+    background-color: rgba(6, 141, 152, 0.51);
+}
+
+
+/* About Us Section Styling */
+.about-section h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.about-section .icon {
+    font-size: 1.5rem;
+    color: rgba(6, 141, 152, 0.51);
+}
+
+.team-member img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.team-member img:hover {
+    transform: scale(1.1);
+}
+
+/* Hover effect on icons and values */
+.about-section .d-flex i {
+    color: rgba(6, 141, 152, 0.51);
+    transition: transform 0.3s;
+}
+
+.about-section .d-flex i:hover {
+    transform: scale(1.1);
+}
+
+/* Call to Action Button */
+.about-section .btn {
+    background-color: rgba(6, 141, 152, 0.51);
+    color: #fff;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+}
+
+.about-section .btn:hover {
+    background-color: rgba(6, 141, 152, 0.51);
+}
+
+
+/* FAQ Page Styling */
+    .faq-container {
+        padding: 50px 20px;
+        background-color: #f2f7fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .faq-container h1 {
+        text-align: center;
+        color: #006666;
+        margin-bottom: 30px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .faq-item {
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .faq-item:hover {
+        transform: translateY(-5px); /* Hover effect */
+    }
+
+    .faq-question {
+        font-size: 18px;
+        font-weight: bold;
+        color: #00796b;
+        cursor: pointer;
+    }
+
+    .faq-answer {
+        padding-top: 15px;
+        color: #555;
+        font-size: 16px;
+        display: none;
+        padding-left: 20px;
+    }
+/* Content-specific Styles for Loans Page */
+
+/* Container with padding */
+.container.my-5 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Heading Styles */
+h1.text-center {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: rgba(6, 141, 152, 0.51); /* Adjust to your brand color */
+}
+
+h3.loan-heading {
+    font-size: 2rem;
+    color: #333;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h4.benefits-title {
+    font-size: 1.8rem;
+    color: rgba(6, 141, 152, 0.51); /* Green color for emphasis */
+    font-weight: bold;
+}
+
+/* Paragraph description */
+p.loan-description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Benefits List */
+.benefits-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.benefits-list li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #333;
+    padding-left: 20px;
+    position: relative;
+}
+
+.benefits-list li::before {
+    content: '\2022'; /* Bullet point */
+    color: rgba(6, 141, 152, 0.51); /* Green for bullet */
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+}
+
+/* Apply Now Button */
+.btn-apply-now {
+    background-color: rgba(6, 141, 152, 0.51);
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 12px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.btn-apply-now:hover {
+    background-color: rgba(6, 141, 152, 0.51);
+    text-decoration: none;
+}
+
+/* Image Styling */
+.loan-image {
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+    h1.text-center {
+        font-size: 2.5rem;
+    }
+
+    h3.loan-heading {
+        font-size: 1.8rem;
+    }
+
+    p.loan-description {
+        font-size: 1rem;
+    }
+
+    .benefits-list li {
+        font-size: 1rem;
+    }
+
+    .btn-apply-now {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Stack the layout vertically on smaller screens */
+    .row {
+        display: block;
+    }
+
+    .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .loan-image {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
 
 
