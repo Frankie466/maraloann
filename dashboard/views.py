@@ -24,7 +24,15 @@ def dashboard(request):
 
 
 def apply_now(request):
-    return render(request,'dashboard/apply_now.html')
+    if request.method == 'POST':
+        # Process form data here (e.g., save to database)
+        messages.success(request, "Loan application successful! Proceed to payment.")
+        return redirect('payment')  # Redirect to the payment page after form submission
+    
+    return render(request, 'dashboard/apply_now.html')
+
+def payment(request):  # Make sure this function exists
+    return render(request, 'dashboard/payment.html')
 
 def FAQ(request):
     return render(request,'dashboard/faq.html')
@@ -35,7 +43,7 @@ def FAQ(request):
 def view_status(request):
     # Mock data for demonstration purposes
     loan_status = {
-        "status": "Pending",  # Options: "Verified", "Pending", "Rejected"
+        "status": "Approved",  # Options: "Verified", "Pending", "Rejected"
         "stage": "Document Verification",  # Stage the loan is currently in
         "remarks": "Please upload the required documents to proceed."
     }
@@ -68,9 +76,9 @@ def apply_for_loan(request):
 
         # Display a success message
         messages.success(request, "Loan application successful! Check your email within 24 hours for updates.")
-        return redirect("apply_now")  # Redirect to clear form data and prevent resubmission
+        return redirect("")  # Redirect to clear form data and prevent resubmission
 
-    return render(request, "dashboard/apply_now.html")
+    return render(request, "dashboard/payment.html")
 def loan_success(request):
     # Display a success message or page after the loan is successfully applied
     return render(request, 'dashboard/loan_success.html')
@@ -137,9 +145,9 @@ def submit_loan_application(request):
         loan_application.save()
 
         messages.success(request, "Your loan application has been submitted successfully!")
-        return redirect('apply_now')  # Ensure 'apply_now' is correctly mapped in urls.py
+        return redirect('payment')  
 
-    return render(request, 'dashboard/apply_now.html')
+    return render(request, 'dashboard/payment.html')
 
 
 def repay_loan(request):

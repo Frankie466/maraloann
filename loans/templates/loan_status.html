@@ -9,10 +9,10 @@
     <div class="status-card">
         <h2>Status: 
             <span class="status-text">
-                {% if loan_status.status == "Approved" %}
+                {% if loan_status.status == "Pending" %}
                     Congratulations! Your loan application is a success.
                 {% elif loan_status.status == "No Application" %}
-                    You haven't applied for any loan yet.
+                    The processing of loan is ongoing, Havent applied yet?
                 {% else %}
                     {{ loan_status.status }}
                 {% endif %}
